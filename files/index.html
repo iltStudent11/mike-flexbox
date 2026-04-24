@@ -1,1 +1,76 @@
-initial comment
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Navbar Example</title>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 2rem;
+      background: #333;
+      color: #fff;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">MyLogo</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+  <div class="card container">
+    <div class=""card">
+      <h2>Card 1</h2>
+      <p>This is the first card. You can put any content here.</p>
+    </div>
+    <div class="card">
+      <h2>Card 2</h2>
+      <p>This is the second card. Responsive and powered by Flexbox!</p>
+    <div class="card">
+      <h2>Card 3</h2>
+      <p>This is the third card. Adjust as needed.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- <body>
+  <div class="card-container">
+    <div class="card">
+      <h2>Card 1</h2>
+      <p>This is the first card. You can put any content here.</p>
+    </div>
+    <div class="card">
+      <h2>Card 2</h2>
+      <p>This is the second card. Responsive and powered by Flexbox!</p>
+    </div>
+    <div class="card">
+      <h2>Card 3</h2>
+      <p>This is the third card. Adjust as needed.</p>
+    </div>
+  </div>
+</body>
+</html> -->
